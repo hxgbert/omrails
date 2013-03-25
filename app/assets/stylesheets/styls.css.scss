@@ -1,0 +1,23 @@
+/* $baseFontFamily: OpenSans; */
+/* # @import url(http://fonts.googleeapis.com/css?family=Opensans); */
+/* How to change font */
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
